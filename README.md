@@ -57,5 +57,7 @@ docker exec -it <Spark-Worker-Contianer-name> \
     spark-submit --master spark://XXXXXXXXXXXXXX:7077 \
     spark_etl_script_docker.py
 ```
-
-If all is fine with the setup, i.e. the Spark job completed successfully, then move forward to scheduling the Spark job on Airflow. 
+---
+- Create two spark submit operator connection (local and cluster)
+![Alt text](./images/image.png)
+![Alt text](./images/spark-cluster-connection.png)

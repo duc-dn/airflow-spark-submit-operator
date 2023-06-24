@@ -4095,3 +4095,216 @@ File Path                               PID  Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/spark_jobs_dag.py                            1           0  0.11s           2023-06-24T13:36:39
 /opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.14s           2023-06-24T13:36:38
 ================================================================================
+[2023-06-24T13:37:23.378+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.13s           2023-06-24T13:37:09
+/opt/airflow/dags/spark_job_v2.py     14877  0.01s             1           0  0.11s           2023-06-24T13:36:53
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.12s           2023-06-24T13:37:10
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.14s           2023-06-24T13:37:09
+================================================================================
+[2023-06-24T13:37:53.661+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.09s           2023-06-24T13:37:39
+/opt/airflow/dags/spark_job_v2.py     14920  0.00s             1           0  0.12s           2023-06-24T13:37:23
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.12s           2023-06-24T13:37:40
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.09s           2023-06-24T13:37:39
+================================================================================
+[2023-06-24T13:38:23.976+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.11s           2023-06-24T13:38:09
+/opt/airflow/dags/spark_job_v2.py     14961  0.01s             1           0  0.09s           2023-06-24T13:37:53
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:38:10
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.12s           2023-06-24T13:38:09
+================================================================================
+[2023-06-24T13:38:54.317+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.11s           2023-06-24T13:38:40
+/opt/airflow/dags/spark_job_v2.py     14995  0.00s             1           0  0.17s           2023-06-24T13:38:24
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:38:41
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.12s           2023-06-24T13:38:40
+================================================================================
+[2023-06-24T13:39:24.678+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.09s           2023-06-24T13:39:10
+/opt/airflow/dags/spark_job_v2.py     15046  0.01s             1           0  0.09s           2023-06-24T13:38:54
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.12s           2023-06-24T13:39:11
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.11s           2023-06-24T13:39:10
+================================================================================
+[2023-06-24T13:39:55.021+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.08s           2023-06-24T13:39:40
+/opt/airflow/dags/spark_job_v2.py     15079  0.00s             1           0  0.12s           2023-06-24T13:39:24
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:39:41
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.09s           2023-06-24T13:39:40
+================================================================================
+[2023-06-24T13:40:25.323+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.08s           2023-06-24T13:40:11
+/opt/airflow/dags/spark_job_v2.py     15128  0.02s             1           0  0.09s           2023-06-24T13:39:55
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.11s           2023-06-24T13:40:12
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.08s           2023-06-24T13:40:11
+================================================================================
+[2023-06-24T13:40:55.681+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.09s           2023-06-24T13:40:41
+/opt/airflow/dags/spark_job_v2.py     15162  0.01s             1           0  0.12s           2023-06-24T13:40:25
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:40:42
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.11s           2023-06-24T13:40:41
+================================================================================
+[2023-06-24T13:41:02.729+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-06-24T13:41:02.735+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-06-24T13:41:25.992+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.08s           2023-06-24T13:41:11
+/opt/airflow/dags/spark_job_v2.py     15211  0.00s             1           0  0.14s           2023-06-24T13:40:55
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:41:12
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.09s           2023-06-24T13:41:11
+================================================================================
+[2023-06-24T13:41:56.385+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.13s           2023-06-24T13:41:42
+/opt/airflow/dags/spark_job_v2.py     15245  0.01s             1           0  0.09s           2023-06-24T13:41:26
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:41:43
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.12s           2023-06-24T13:41:42
+================================================================================
+[2023-06-24T13:42:26.753+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.11s           2023-06-24T13:42:12
+/opt/airflow/dags/spark_job_v2.py     15287  0.00s             1           0  0.12s           2023-06-24T13:41:56
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:42:13
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.12s           2023-06-24T13:42:12
+================================================================================
+[2023-06-24T13:42:57.086+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.10s           2023-06-24T13:42:42
+/opt/airflow/dags/spark_job_v2.py     15328  0.01s             1           0  0.08s           2023-06-24T13:42:26
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:42:44
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.09s           2023-06-24T13:42:42
+================================================================================
+[2023-06-24T13:43:27.409+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.10s           2023-06-24T13:43:13
+/opt/airflow/dags/spark_job_v2.py     15362  0.01s             1           0  0.12s           2023-06-24T13:42:57
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.12s           2023-06-24T13:43:14
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.11s           2023-06-24T13:43:13
+================================================================================
+[2023-06-24T13:43:57.710+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.08s           2023-06-24T13:43:43
+/opt/airflow/dags/spark_job_v2.py     15411  0.00s             1           0  0.12s           2023-06-24T13:43:27
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.09s           2023-06-24T13:43:44
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.09s           2023-06-24T13:43:43
+================================================================================
+[2023-06-24T13:44:28.063+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.09s           2023-06-24T13:44:13
+/opt/airflow/dags/spark_job_v2.py     15445  0.01s             1           0  0.10s           2023-06-24T13:43:57
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.12s           2023-06-24T13:44:15
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.10s           2023-06-24T13:44:13
+================================================================================
+[2023-06-24T13:44:58.384+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.10s           2023-06-24T13:44:44
+/opt/airflow/dags/spark_job_v2.py     15494  0.00s             1           0  0.12s           2023-06-24T13:44:28
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.10s           2023-06-24T13:44:45
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.08s           2023-06-24T13:44:44
+================================================================================
+[2023-06-24T13:45:28.760+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.13s           2023-06-24T13:45:14
+/opt/airflow/dags/spark_job_v2.py     15528  0.01s             1           0  0.11s           2023-06-24T13:44:58
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.10s           2023-06-24T13:45:15
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.12s           2023-06-24T13:45:14
+================================================================================
+[2023-06-24T13:45:59.051+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.10s           2023-06-24T13:45:45
+/opt/airflow/dags/spark_job_v2.py     15562  0.01s             1           0  0.12s           2023-06-24T13:45:28
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.08s           2023-06-24T13:45:46
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.11s           2023-06-24T13:45:45
+================================================================================
+[2023-06-24T13:46:03.118+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-06-24T13:46:03.125+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-06-24T13:46:29.470+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_jobs_dag2.py                           1           0  0.10s           2023-06-24T13:46:15
+/opt/airflow/dags/spark_job_v2.py     15611  0.01s             1           0  0.12s           2023-06-24T13:45:59
+/opt/airflow/dags/spark_jobs_dag.py                            1           0  0.11s           2023-06-24T13:46:16
+/opt/airflow/dags/spark_jobs_dag3.py                           1           0  0.11s           2023-06-24T13:46:15
+================================================================================
