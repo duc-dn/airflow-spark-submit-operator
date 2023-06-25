@@ -1,0 +1,38 @@
+[2023-06-24T17:51:33.882+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_etl_minio_v7.spark_submit_task manual__2023-06-24T17:47:39.367223+00:00 [queued]>
+[2023-06-24T17:51:33.890+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_etl_minio_v7.spark_submit_task manual__2023-06-24T17:47:39.367223+00:00 [queued]>
+[2023-06-24T17:51:33.890+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24T17:51:33.890+0000] {taskinstance.py:1283} INFO - Starting attempt 3 of 8
+[2023-06-24T17:51:33.890+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24T17:51:33.899+0000] {taskinstance.py:1303} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2023-06-24 17:47:39.367223+00:00
+[2023-06-24T17:51:33.904+0000] {standard_task_runner.py:55} INFO - Started process 17248 to run task
+[2023-06-24T17:51:33.906+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'spark_etl_minio_v7', 'spark_submit_task', 'manual__2023-06-24T17:47:39.367223+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_minio.py', '--cfg-path', '/tmp/tmp55zbrzwf']
+[2023-06-24T17:51:33.907+0000] {standard_task_runner.py:83} INFO - Job 138: Subtask spark_submit_task
+[2023-06-24T17:51:33.916+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:250: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2023-06-24T17:51:33.954+0000] {task_command.py:388} INFO - Running <TaskInstance: spark_etl_minio_v7.spark_submit_task manual__2023-06-24T17:47:39.367223+00:00 [running]> on host a8d69ab09d2d
+[2023-06-24T17:51:34.009+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_etl_minio_v7
+AIRFLOW_CTX_TASK_ID=spark_submit_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-24T17:47:39.367223+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-24T17:47:39.367223+00:00
+[2023-06-24T17:51:34.015+0000] {base.py:73} INFO - Using connection ID 'spark_conn' for task execution.
+[2023-06-24T17:51:34.016+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 395, in submit
+    spark_submit_cmd = self._build_spark_submit_command(application)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 341, in _build_spark_submit_command
+    self.log.info("Spark-Submit cmd: %s", self._mask_cmd(connection_cmd))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 253, in _mask_cmd
+    " ".join(connection_cmd),
+TypeError: sequence item 4: expected str instance, list found
+[2023-06-24T17:51:34.022+0000] {taskinstance.py:1321} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_etl_minio_v7, task_id=spark_submit_task, execution_date=20230624T174739, start_date=20230624T175133, end_date=20230624T175134
+[2023-06-24T17:51:34.031+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 138 for task spark_submit_task (sequence item 4: expected str instance, list found; 17248)
+[2023-06-24T17:51:34.038+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-06-24T17:51:34.051+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

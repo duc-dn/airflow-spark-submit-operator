@@ -1,0 +1,202 @@
+[2023-06-25T06:13:56.712+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_etl_minio_v15.spark_submit_task scheduled__2023-06-24T00:00:00+00:00 [queued]>
+[2023-06-25T06:13:56.720+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_etl_minio_v15.spark_submit_task scheduled__2023-06-24T00:00:00+00:00 [queued]>
+[2023-06-25T06:13:56.720+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-25T06:13:56.720+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 6
+[2023-06-25T06:13:56.720+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-25T06:13:56.733+0000] {taskinstance.py:1303} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2023-06-24 00:00:00+00:00
+[2023-06-25T06:13:56.737+0000] {standard_task_runner.py:55} INFO - Started process 28248 to run task
+[2023-06-25T06:13:56.741+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'spark_etl_minio_v15', 'spark_submit_task', 'scheduled__2023-06-24T00:00:00+00:00', '--job-id', '238', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_minio_v1.py', '--cfg-path', '/tmp/tmp95kcbsau']
+[2023-06-25T06:13:56.742+0000] {standard_task_runner.py:83} INFO - Job 238: Subtask spark_submit_task
+[2023-06-25T06:13:56.754+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:250: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2023-06-25T06:13:56.770+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/sqlalchemy.py:124: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  return not conf.get("database", "sql_alchemy_conn").startswith("mssql")
+
+[2023-06-25T06:13:56.798+0000] {task_command.py:388} INFO - Running <TaskInstance: spark_etl_minio_v15.spark_submit_task scheduled__2023-06-24T00:00:00+00:00 [running]> on host a8d69ab09d2d
+[2023-06-25T06:13:56.862+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_etl_minio_v15
+AIRFLOW_CTX_TASK_ID=spark_submit_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-24T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-24T00:00:00+00:00
+[2023-06-25T06:13:56.870+0000] {base.py:73} INFO - Using connection ID 'spark_conn' for task execution.
+[2023-06-25T06:13:56.873+0000] {spark_submit.py:341} INFO - Spark-Submit cmd: spark-submit --master spark://spark:7077 --conf spark.hadoop.fs.s3a.aws.credentials.provider=org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider --conf spark.hadoop.fs.s3a.path.style.access=true --conf spark.hadoop.fs.s3a.access.key=minioadmin --conf spark.hadoop.fs.s3a.secret.key=****** --conf spark.hadoop.fs.s3a.endpoint=http:minio:9000 --jars local:///opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar,            local:///opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar,             local:///opt/bitnami/spark/jars/hadoop-common:3.2.0.jar --name arrow-spark /opt/***/dags/spark_etl_spark_minio.py
+[2023-06-25T06:13:58.041+0000] {spark_submit.py:492} INFO - WARNING: An illegal reflective access operation has occurred
+[2023-06-25T06:13:58.042+0000] {spark_submit.py:492} INFO - WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/jars/spark-unsafe_2.12-3.2.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[2023-06-25T06:13:58.042+0000] {spark_submit.py:492} INFO - WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[2023-06-25T06:13:58.042+0000] {spark_submit.py:492} INFO - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2023-06-25T06:13:58.042+0000] {spark_submit.py:492} INFO - WARNING: All illegal access operations will be denied in a future release
+[2023-06-25T06:13:58.394+0000] {spark_submit.py:492} INFO - 23/06/25 06:13:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-06-25T06:13:58.743+0000] {spark_submit.py:492} INFO - Exception in thread "main" java.lang.IllegalArgumentException: java.net.URISyntaxException: Illegal character in scheme name at index 0:             local:
+[2023-06-25T06:13:58.745+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.Path.initialize(Path.java:263)
+[2023-06-25T06:13:58.745+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.Path.<init>(Path.java:221)
+[2023-06-25T06:13:58.746+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.Path.<init>(Path.java:129)
+[2023-06-25T06:13:58.746+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.Globber.doGlob(Globber.java:285)
+[2023-06-25T06:13:58.746+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.Globber.glob(Globber.java:202)
+[2023-06-25T06:13:58.746+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.FileSystem.globStatus(FileSystem.java:2124)
+[2023-06-25T06:13:58.747+0000] {spark_submit.py:492} INFO - at org.apache.spark.util.DependencyUtils$.resolveGlobPath(DependencyUtils.scala:318)
+[2023-06-25T06:13:58.747+0000] {spark_submit.py:492} INFO - at org.apache.spark.util.DependencyUtils$.$anonfun$resolveGlobPaths$2(DependencyUtils.scala:273)
+[2023-06-25T06:13:58.747+0000] {spark_submit.py:492} INFO - at org.apache.spark.util.DependencyUtils$.$anonfun$resolveGlobPaths$2$adapted(DependencyUtils.scala:271)
+[2023-06-25T06:13:58.747+0000] {spark_submit.py:492} INFO - at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:293)
+[2023-06-25T06:13:58.747+0000] {spark_submit.py:492} INFO - at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+[2023-06-25T06:13:58.747+0000] {spark_submit.py:492} INFO - at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+[2023-06-25T06:13:58.748+0000] {spark_submit.py:492} INFO - at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+[2023-06-25T06:13:58.748+0000] {spark_submit.py:492} INFO - at scala.collection.TraversableLike.flatMap(TraversableLike.scala:293)
+[2023-06-25T06:13:58.748+0000] {spark_submit.py:492} INFO - at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:290)
+[2023-06-25T06:13:58.748+0000] {spark_submit.py:492} INFO - at scala.collection.AbstractTraversable.flatMap(Traversable.scala:108)
+[2023-06-25T06:13:58.748+0000] {spark_submit.py:492} INFO - at org.apache.spark.util.DependencyUtils$.resolveGlobPaths(DependencyUtils.scala:271)
+[2023-06-25T06:13:58.748+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.$anonfun$prepareSubmitEnvironment$4(SparkSubmit.scala:364)
+[2023-06-25T06:13:58.749+0000] {spark_submit.py:492} INFO - at scala.Option.map(Option.scala:230)
+[2023-06-25T06:13:58.749+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:364)
+[2023-06-25T06:13:58.749+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:898)
+[2023-06-25T06:13:58.749+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:180)
+[2023-06-25T06:13:58.749+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:203)
+[2023-06-25T06:13:58.750+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:90)
+[2023-06-25T06:13:58.750+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1043)
+[2023-06-25T06:13:58.750+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1052)
+[2023-06-25T06:13:58.751+0000] {spark_submit.py:492} INFO - at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2023-06-25T06:13:58.751+0000] {spark_submit.py:492} INFO - Caused by: java.net.URISyntaxException: Illegal character in scheme name at index 0:             local:
+[2023-06-25T06:13:58.751+0000] {spark_submit.py:492} INFO - at java.base/java.net.URI$Parser.fail(URI.java:2913)
+[2023-06-25T06:13:58.752+0000] {spark_submit.py:492} INFO - at java.base/java.net.URI$Parser.checkChars(URI.java:3084)
+[2023-06-25T06:13:58.752+0000] {spark_submit.py:492} INFO - at java.base/java.net.URI$Parser.checkChar(URI.java:3094)
+[2023-06-25T06:13:58.752+0000] {spark_submit.py:492} INFO - at java.base/java.net.URI$Parser.parse(URI.java:3109)
+[2023-06-25T06:13:58.752+0000] {spark_submit.py:492} INFO - at java.base/java.net.URI.<init>(URI.java:758)
+[2023-06-25T06:13:58.752+0000] {spark_submit.py:492} INFO - at org.apache.hadoop.fs.Path.initialize(Path.java:260)
+[2023-06-25T06:13:58.753+0000] {spark_submit.py:492} INFO - ... 26 more
+[2023-06-25T06:13:58.929+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 423, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master spark://spark:7077 --conf spark.hadoop.fs.s3a.aws.credentials.provider=org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider --conf spark.hadoop.fs.s3a.path.style.access=true --conf spark.hadoop.fs.s3a.access.key=minioadmin --conf spark.hadoop.fs.s3a.secret.key=****** --conf spark.hadoop.fs.s3a.endpoint=http:minio:9000 --jars local:///opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar,            local:///opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar,             local:///opt/bitnami/spark/jars/hadoop-common:3.2.0.jar --name arrow-spark /opt/***/dags/spark_etl_spark_minio.py. Error code is: 1.
+[2023-06-25T06:13:58.933+0000] {taskinstance.py:1321} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_etl_minio_v15, task_id=spark_submit_task, execution_date=20230624T000000, start_date=20230625T061356, end_date=20230625T061358
+[2023-06-25T06:13:58.952+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 238 for task spark_submit_task (Cannot execute: spark-submit --master spark://spark:7077 --conf spark.hadoop.fs.s3a.aws.credentials.provider=org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider --conf spark.hadoop.fs.s3a.path.style.access=true --conf spark.hadoop.fs.s3a.access.key=minioadmin --conf spark.hadoop.fs.s3a.secret.key=****** --conf spark.hadoop.fs.s3a.endpoint=http:minio:9000 --jars local:///opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar,            local:///opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar,             local:///opt/bitnami/spark/jars/hadoop-common:3.2.0.jar --name arrow-spark /opt/***/dags/spark_etl_spark_minio.py. Error code is: 1.; 28248)
+[2023-06-25T06:13:58.978+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-06-25T06:13:58.992+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-06-25T06:17:51.523+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_etl_minio_v15.spark_submit_task scheduled__2023-06-24T00:00:00+00:00 [queued]>
+[2023-06-25T06:17:51.543+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_etl_minio_v15.spark_submit_task scheduled__2023-06-24T00:00:00+00:00 [queued]>
+[2023-06-25T06:17:51.544+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-25T06:17:51.544+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 6
+[2023-06-25T06:17:51.544+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-25T06:17:51.562+0000] {taskinstance.py:1303} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2023-06-24 00:00:00+00:00
+[2023-06-25T06:17:51.568+0000] {standard_task_runner.py:55} INFO - Started process 29039 to run task
+[2023-06-25T06:17:51.577+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'spark_etl_minio_v15', 'spark_submit_task', 'scheduled__2023-06-24T00:00:00+00:00', '--job-id', '244', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_minio_v1.py', '--cfg-path', '/tmp/tmp0mqw6jr0']
+[2023-06-25T06:17:51.580+0000] {standard_task_runner.py:83} INFO - Job 244: Subtask spark_submit_task
+[2023-06-25T06:17:51.608+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:250: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2023-06-25T06:17:51.683+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/sqlalchemy.py:124: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  return not conf.get("database", "sql_alchemy_conn").startswith("mssql")
+
+[2023-06-25T06:17:51.718+0000] {task_command.py:388} INFO - Running <TaskInstance: spark_etl_minio_v15.spark_submit_task scheduled__2023-06-24T00:00:00+00:00 [running]> on host a8d69ab09d2d
+[2023-06-25T06:17:51.831+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_etl_minio_v15
+AIRFLOW_CTX_TASK_ID=spark_submit_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-24T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-24T00:00:00+00:00
+[2023-06-25T06:17:51.845+0000] {base.py:73} INFO - Using connection ID 'spark_conn' for task execution.
+[2023-06-25T06:17:51.848+0000] {spark_submit.py:341} INFO - Spark-Submit cmd: spark-submit --master spark://spark:7077 --conf spark.hadoop.fs.s3a.aws.credentials.provider=org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider --conf spark.hadoop.fs.s3a.path.style.access=true --conf spark.hadoop.fs.s3a.access.key=minioadmin --conf spark.hadoop.fs.s3a.secret.key=****** --conf spark.hadoop.fs.s3a.endpoint=http://minio:9000 --jars local:///opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar,local:///opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar,local:///opt/bitnami/spark/jars/hadoop-common-3.2.0.jar --name arrow-spark /opt/***/dags/spark_etl_spark_minio.py
+[2023-06-25T06:17:53.330+0000] {spark_submit.py:492} INFO - WARNING: An illegal reflective access operation has occurred
+[2023-06-25T06:17:53.331+0000] {spark_submit.py:492} INFO - WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/jars/spark-unsafe_2.12-3.2.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[2023-06-25T06:17:53.331+0000] {spark_submit.py:492} INFO - WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[2023-06-25T06:17:53.331+0000] {spark_submit.py:492} INFO - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2023-06-25T06:17:53.331+0000] {spark_submit.py:492} INFO - WARNING: All illegal access operations will be denied in a future release
+[2023-06-25T06:17:53.814+0000] {spark_submit.py:492} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2023-06-25T06:17:53.815+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:53 WARN DependencyUtils: Local jar /opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar does not exist, skipping.
+[2023-06-25T06:17:53.815+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:53 WARN DependencyUtils: Local jar /opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar does not exist, skipping.
+[2023-06-25T06:17:53.816+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:53 WARN DependencyUtils: Local jar /opt/bitnami/spark/jars/hadoop-common-3.2.0.jar does not exist, skipping.
+[2023-06-25T06:17:55.033+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SparkContext: Running Spark version 3.2.0
+[2023-06-25T06:17:55.120+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-06-25T06:17:55.227+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO ResourceUtils: ==============================================================
+[2023-06-25T06:17:55.227+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2023-06-25T06:17:55.228+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO ResourceUtils: ==============================================================
+[2023-06-25T06:17:55.228+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SparkContext: Submitted application: arrow-spark
+[2023-06-25T06:17:55.267+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2023-06-25T06:17:55.284+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO ResourceProfile: Limiting resource is cpu
+[2023-06-25T06:17:55.284+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2023-06-25T06:17:55.344+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SecurityManager: Changing view acls to: default
+[2023-06-25T06:17:55.345+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SecurityManager: Changing modify acls to: default
+[2023-06-25T06:17:55.347+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SecurityManager: Changing view acls groups to:
+[2023-06-25T06:17:55.349+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SecurityManager: Changing modify acls groups to:
+[2023-06-25T06:17:55.349+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(default); groups with view permissions: Set(); users  with modify permissions: Set(default); groups with modify permissions: Set()
+[2023-06-25T06:17:55.785+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO Utils: Successfully started service 'sparkDriver' on port 34663.
+[2023-06-25T06:17:55.842+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SparkEnv: Registering MapOutputTracker
+[2023-06-25T06:17:55.907+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SparkEnv: Registering BlockManagerMaster
+[2023-06-25T06:17:55.929+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2023-06-25T06:17:55.931+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2023-06-25T06:17:55.940+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2023-06-25T06:17:55.982+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:55 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-051f5dd7-1812-4766-88f7-5df8607c38ec
+[2023-06-25T06:17:56.020+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2023-06-25T06:17:56.058+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO SparkEnv: Registering OutputCommitCoordinator
+[2023-06-25T06:17:56.349+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2023-06-25T06:17:56.350+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2023-06-25T06:17:56.350+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2023-06-25T06:17:56.351+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[2023-06-25T06:17:56.352+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4044. Attempting port 4045.
+[2023-06-25T06:17:56.353+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4045. Attempting port 4046.
+[2023-06-25T06:17:56.355+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4046. Attempting port 4047.
+[2023-06-25T06:17:56.356+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4047. Attempting port 4048.
+[2023-06-25T06:17:56.357+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4048. Attempting port 4049.
+[2023-06-25T06:17:56.358+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4049. Attempting port 4050.
+[2023-06-25T06:17:56.359+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4050. Attempting port 4051.
+[2023-06-25T06:17:56.360+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 WARN Utils: Service 'SparkUI' could not bind on port 4051. Attempting port 4052.
+[2023-06-25T06:17:56.368+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO Utils: Successfully started service 'SparkUI' on port 4052.
+[2023-06-25T06:17:56.434+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://a8d69ab09d2d:4052
+[2023-06-25T06:17:56.452+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO SparkContext: Added JAR local:///opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar at file:/opt/bitnami/spark/jars/hadoop-aws-3.2.0.jar with timestamp 1687673875023
+[2023-06-25T06:17:56.452+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO SparkContext: Added JAR local:///opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar at file:/opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.375.jar with timestamp 1687673875023
+[2023-06-25T06:17:56.452+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO SparkContext: Added JAR local:///opt/bitnami/spark/jars/hadoop-common-3.2.0.jar at file:/opt/bitnami/spark/jars/hadoop-common-3.2.0.jar with timestamp 1687673875023
+[2023-06-25T06:17:56.710+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark:7077...
+[2023-06-25T06:17:56.829+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO TransportClientFactory: Successfully created connection to spark/172.19.0.11:7077 after 46 ms (0 ms spent in bootstraps)
+[2023-06-25T06:17:56.922+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20230625061756-0010
+[2023-06-25T06:17:56.928+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37387.
+[2023-06-25T06:17:56.929+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO NettyBlockTransferService: Server created on a8d69ab09d2d:37387
+[2023-06-25T06:17:56.930+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2023-06-25T06:17:56.935+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, a8d69ab09d2d, 37387, None)
+[2023-06-25T06:17:56.938+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO BlockManagerMasterEndpoint: Registering block manager a8d69ab09d2d:37387 with 434.4 MiB RAM, BlockManagerId(driver, a8d69ab09d2d, 37387, None)
+[2023-06-25T06:17:56.941+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, a8d69ab09d2d, 37387, None)
+[2023-06-25T06:17:56.942+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:56 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, a8d69ab09d2d, 37387, None)
+[2023-06-25T06:17:57.138+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:57 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2023-06-25T06:17:57.412+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:57 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2023-06-25T06:17:57.441+0000] {spark_submit.py:492} INFO - 23/06/25 06:17:57 INFO SharedState: Warehouse path is 'file:/opt/***/spark-warehouse'.
+[2023-06-25T06:18:01.771+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO CodeGenerator: Code generated in 157.971365 ms
+[2023-06-25T06:18:01.813+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+[2023-06-25T06:18:01.827+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO DAGScheduler: Got job 0 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2023-06-25T06:18:01.827+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO DAGScheduler: Final stage: ResultStage 0 (showString at NativeMethodAccessorImpl.java:0)
+[2023-06-25T06:18:01.828+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO DAGScheduler: Parents of final stage: List()
+[2023-06-25T06:18:01.829+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO DAGScheduler: Missing parents: List()
+[2023-06-25T06:18:01.834+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[6] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2023-06-25T06:18:01.949+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 11.7 KiB, free 434.4 MiB)
+[2023-06-25T06:18:01.996+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 6.2 KiB, free 434.4 MiB)
+[2023-06-25T06:18:01.999+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:01 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on a8d69ab09d2d:37387 (size: 6.2 KiB, free: 434.4 MiB)
+[2023-06-25T06:18:02.004+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:02 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1427
+[2023-06-25T06:18:02.020+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:02 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[6] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2023-06-25T06:18:02.021+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:02 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2023-06-25T06:18:17.043+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:18:32.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:18:47.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:18:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:19:02.043+0000] {spark_submit.py:492} INFO - 23/06/25 06:19:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:19:10.525+0000] {spark_submit.py:492} INFO - 23/06/25 06:19:10 WARN StandaloneAppClient$ClientEndpoint: Connection to 933027785c84:7077 failed; waiting for master to reconnect...
+[2023-06-25T06:19:10.525+0000] {spark_submit.py:492} INFO - 23/06/25 06:19:10 WARN StandaloneSchedulerBackend: Disconnected from Spark cluster! Waiting for reconnection...
+[2023-06-25T06:19:17.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:19:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:19:32.043+0000] {spark_submit.py:492} INFO - 23/06/25 06:19:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:19:47.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:19:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:20:02.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:20:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:20:17.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:20:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:20:32.043+0000] {spark_submit.py:492} INFO - 23/06/25 06:20:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:20:47.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:20:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:21:02.043+0000] {spark_submit.py:492} INFO - 23/06/25 06:21:02 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:21:17.042+0000] {spark_submit.py:492} INFO - 23/06/25 06:21:17 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:21:36.522+0000] {spark_submit.py:492} INFO - 23/06/25 06:21:32 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:21:49.355+0000] {spark_submit.py:492} INFO - 23/06/25 06:21:47 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+[2023-06-25T06:21:49.397+0000] {spark_submit.py:492} INFO - 23/06/25 06:21:49 INFO AsyncEventQueue: Process of event SparkListenerExecutorMetricsUpdate(driver,WrappedArray(),Map((-1,-1) -> org.apache.spark.executor.ExecutorMetrics@6703f5f4)) by listener AppStatusListener took 8.360368547s.
+[2023-06-25T06:21:49.399+0000] {spark_submit.py:492} INFO - 23/06/25 06:21:49 INFO AsyncEventQueue: Process of event SparkListenerExecutorMetricsUpdate(driver,WrappedArray(),Map((-1,-1) -> org.apache.spark.executor.ExecutorMetrics@6703f5f4)) by listener HeartbeatReceiver took 2.97307788s.
+[2023-06-25T06:22:59.095+0000] {spark_submit.py:492} INFO - 23/06/25 06:22:27 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
