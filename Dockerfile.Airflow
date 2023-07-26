@@ -27,8 +27,10 @@ RUN export SPARK_HOME
 ENV PATH /opt/spark/bin:/opt/spark/sbin:$PATH
 
 USER airflow
+COPY ./lib /opt/airflow/lib
 
 COPY ./requirements.txt /
+# RUN pip install --upgrade pip
 RUN pip install -r /requirements.txt
 
 COPY --chown=airflow:root ./dags /opt/airflow/dags

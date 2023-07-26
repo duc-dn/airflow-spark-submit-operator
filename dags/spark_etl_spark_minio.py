@@ -11,8 +11,6 @@ spark = (
         "org.apache.spark:spark-avro_2.12:3.2.0,"
         "org.apache.hadoop:hadoop-aws:3.2.0,"
         "com.amazonaws:aws-java-sdk:1.11.375,"
-        "org.apache.spark:spark-tags_2.12:3.2.0,"
-        "org.apache.hadoop:hadoop-common:3.2.0",
     )
     .config(
         "spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem"
