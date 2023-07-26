@@ -15,8 +15,8 @@ with DAG(
     dag_id='spark_etl_minio_9',
     default_args=default_args,
     description='This is our fisrt dag that we write',
-    start_date=airflow.utils.dates.days_ago(1),
-    schedule_interval=None
+    start_date=datetime.now(),
+    schedule_interval="*/10 * * * *"
     ) as dag:
     task1 = SparkSubmitOperator(
 		application = "/opt/airflow/dags/spark_etl_spark_minio.py",

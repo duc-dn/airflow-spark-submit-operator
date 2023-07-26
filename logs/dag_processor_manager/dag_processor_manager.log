@@ -1495,3 +1495,285 @@ File Path                             PID    Runtime      # DAGs    # Errors  La
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /opt/airflow/dags/spark_job_minio.py                           1           0  0.14s           2023-07-26T04:04:17
 ================================================================================
+[2023-07-26T04:05:17.007+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.09s           2023-07-26T04:04:47
+================================================================================
+[2023-07-26T04:05:19.029+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-07-26T04:05:19.038+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2023-07-26T04:05:47.203+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.08s           2023-07-26T04:05:18
+================================================================================
+[2023-07-26T04:06:17.375+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.11s           2023-07-26T04:05:48
+================================================================================
+[2023-07-26T04:06:47.593+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.12s           2023-07-26T04:06:18
+================================================================================
+[2023-07-26T04:07:17.763+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.10s           2023-07-26T04:06:48
+================================================================================
+[2023-07-26T04:07:47.955+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.09s           2023-07-26T04:07:18
+================================================================================
+[2023-07-26T04:08:18.112+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.08s           2023-07-26T04:07:49
+================================================================================
+[2023-07-26T04:08:48.305+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.12s           2023-07-26T04:08:19
+================================================================================
+[2023-07-26T04:09:18.506+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.24s           2023-07-26T04:08:49
+================================================================================
+[2023-07-26T04:09:48.828+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.10s           2023-07-26T04:09:19
+================================================================================
+[2023-07-26T04:10:19.043+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-07-26T04:10:19.051+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2023-07-26T04:10:19.080+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.11s           2023-07-26T04:09:49
+================================================================================
+[2023-07-26T04:10:49.444+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py   6585  0.00s             0           1  0.07s           2023-07-26T04:10:48
+================================================================================
+[2023-07-26T04:11:19.619+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py   6623  0.01s             0           1  0.04s           2023-07-26T04:10:49
+================================================================================
+[2023-07-26T04:11:49.846+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.16s           2023-07-26T04:11:25
+================================================================================
+[2023-07-26T04:12:20.920+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.44s           2023-07-26T04:11:56
+================================================================================
+[2023-07-26T04:13:13.788+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py   6670  0.58s             1           0  0.44s           2023-07-26T04:11:56
+================================================================================
+[2023-07-26T04:13:48.760+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py   6670  49.65s            1           0  0.44s           2023-07-26T04:11:56
+================================================================================
+[2023-07-26T04:15:37.557+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-07-26T04:15:47.509+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2023-07-26T04:16:06.780+0000] {manager.py:736} ERROR - Error removing old import errors
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 498, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 659, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py", line 734, in _refresh_dag_dir
+    self.clear_nonexistent_import_errors()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py", line 788, in clear_nonexistent_import_errors
+    query.delete(synchronize_session="fetch")
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3222, in delete
+    result = self.session.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1713, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1552, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3315, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3394, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3364, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2198, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 498, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 659, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2023-07-26T04:16:34.394+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-07-26T04:16:34.430+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-07-26T04:16:34.431+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-07-26T04:16:34.432+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-07-26T04:16:34.485+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2023-07-26T04:16:34.784+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/spark_job_minio.py   6672  0.07s             0           0
+================================================================================
+[2023-07-26T04:17:07.187+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py   6680  0.05s             1           0  0.59s           2023-07-26T04:16:35
+================================================================================
+[2023-07-26T04:19:19.872+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-07-26T04:19:19.875+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-07-26T04:19:19.875+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-07-26T04:19:19.875+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-07-26T04:19:19.890+0000] {manager.py:729} INFO - There are 1 files in /opt/airflow/dags
+[2023-07-26T04:19:28.987+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.17s           2023-07-26T04:19:20
+================================================================================
+[2023-07-26T04:19:59.219+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark_job_minio.py                           1           0  0.34s           2023-07-26T04:19:50
+================================================================================
+[2023-07-26T04:20:09.045+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
