@@ -12,7 +12,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='spark_etl_minio_9',
+    dag_id='spark_etl_minio_10',
     default_args=default_args,
     description='This is our fisrt dag that we write',
     start_date=datetime.now(),
@@ -24,14 +24,13 @@ with DAG(
 		task_id ='spark_submit_task', 
         packages='com.amazonaws:aws-java-sdk-bundle:1.11.375,org.apache.hadoop:hadoop-aws:3.2.2',
         conf={
-            "spark.hadoop.fs.s3a.acces  s.key": "minioadmin",
+            "spark.hadoop.fs.s3a.access.key": "minioadmin",
             "spark.hadoop.fs.s3a.secret.key": "minioadmin", 
             "spark.hadoop.fs.s3a.endpoint": "http://minio:9000",
             "spark.hadoop.fs.s3a.aws.credentials.provider":
             "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider",
             "spark.hadoop.fs.s3a.path.style.access": "true",
         }
-        
     )
 
     task1

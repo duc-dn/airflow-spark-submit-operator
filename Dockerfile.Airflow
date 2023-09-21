@@ -12,25 +12,9 @@ RUN apt update && \
 ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
 RUN export JAVA_HOME
 
-ENV SPARK_VERSION=3.2.0 \
-HADOOP_VERSION=3.2 \
-SPARK_HOME=/opt/spark \
-PYTHONHASHSEED=1
-
-RUN wget --no-verbose -O apache-spark.tgz "https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz" \
-&& mkdir -p /opt/spark \
-&& tar -xf apache-spark.tgz -C /opt/spark --strip-components=1 \
-&& rm apache-spark.tgz
-
-ENV SPARK_HOME /opt/spark
-RUN export SPARK_HOME
-ENV PATH /opt/spark/bin:/opt/spark/sbin:$PATH
-
+# Setup AIrflow
 USER airflow
-COPY ./lib /opt/airflow/lib
 
 COPY ./requirements.txt /
 # RUN pip install --upgrade pip
 RUN pip install -r /requirements.txt
-
-COPY --chown=airflow:root ./dags /opt/airflow/dags
