@@ -12966,3 +12966,1374 @@ File Path                                        PID    Runtime      # DAGs    #
 /opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-21T17:13:01
 /opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-21T17:13:02
 ================================================================================
+[2023-09-21T17:13:33.769+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:13:22
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-21T17:13:32
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-21T17:13:31
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-21T17:13:32
+================================================================================
+[2023-09-21T17:14:04.232+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-21T17:13:52
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-21T17:14:03
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.15s           2023-09-21T17:14:02
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-21T17:14:03
+================================================================================
+[2023-09-21T17:14:34.662+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:14:23
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-21T17:14:33
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-21T17:14:32
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-21T17:14:33
+================================================================================
+[2023-09-21T17:15:05.038+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:14:53
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:15:04
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:15:02
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-21T17:15:04
+================================================================================
+[2023-09-21T17:15:32.251+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-21T17:15:32.253+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-21T17:15:35.545+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-21T17:15:24
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-21T17:15:34
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:15:33
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.33s           2023-09-21T17:15:34
+================================================================================
+[2023-09-21T17:16:05.939+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:15:54
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:16:04
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:16:03
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-21T17:16:05
+================================================================================
+[2023-09-21T17:16:36.398+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:16:25
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:16:35
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:16:34
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-21T17:16:35
+================================================================================
+[2023-09-21T17:17:06.827+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:16:55
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:17:05
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:17:04
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.18s           2023-09-21T17:17:05
+================================================================================
+[2023-09-21T17:17:37.226+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:17:26
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:17:36
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-21T17:17:35
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.18s           2023-09-21T17:17:36
+================================================================================
+[2023-09-21T17:18:07.684+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:17:56
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-21T17:18:06
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.16s           2023-09-21T17:18:05
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-21T17:18:06
+================================================================================
+[2023-09-21T17:18:38.069+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:18:26
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:18:37
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:18:36
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-21T17:18:37
+================================================================================
+[2023-09-21T17:19:08.699+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:18:57
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.33s           2023-09-21T17:19:07
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.18s           2023-09-21T17:19:06
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.56s           2023-09-21T17:19:07
+================================================================================
+[2023-09-21T17:19:39.319+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.17s           2023-09-21T17:19:27
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.27s           2023-09-21T17:19:38
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.22s           2023-09-21T17:19:37
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.49s           2023-09-21T17:19:38
+================================================================================
+[2023-09-21T17:21:19.542+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-21T17:21:19.546+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-21T17:21:39.146+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.24s           2023-09-21T17:21:19
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.23s           2023-09-21T17:21:20
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.15s           2023-09-21T17:21:20
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.38s           2023-09-21T17:21:19
+================================================================================
+[2023-09-21T17:22:09.600+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:21:50
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.15s           2023-09-21T17:21:50
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:21:50
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.30s           2023-09-21T17:21:50
+================================================================================
+[2023-09-21T17:22:39.991+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:22:20
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:22:20
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:22:20
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-21T17:22:20
+================================================================================
+[2023-09-21T17:23:10.423+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:22:51
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:22:51
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:22:51
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-21T17:22:51
+================================================================================
+[2023-09-21T17:23:40.849+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:23:21
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:23:21
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:23:21
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-21T17:23:21
+================================================================================
+[2023-09-21T17:24:11.291+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:23:52
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-21T17:23:52
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.19s           2023-09-21T17:23:52
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-21T17:23:52
+================================================================================
+[2023-09-21T17:24:41.706+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:24:22
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:24:22
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:24:22
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-21T17:24:22
+================================================================================
+[2023-09-21T17:25:12.169+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:24:52
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:24:52
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:24:53
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.31s           2023-09-21T17:24:53
+================================================================================
+[2023-09-21T17:25:42.584+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:25:23
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:25:23
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:25:23
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-21T17:25:23
+================================================================================
+[2023-09-21T17:26:12.965+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:25:53
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:25:53
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:25:53
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-21T17:25:53
+================================================================================
+[2023-09-21T17:26:19.997+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-21T17:26:19.999+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-21T17:26:43.346+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:26:24
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:26:24
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:26:24
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-21T17:26:24
+================================================================================
+[2023-09-21T17:27:13.744+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:26:54
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-21T17:26:54
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:26:54
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-21T17:26:54
+================================================================================
+[2023-09-21T17:27:44.200+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.17s           2023-09-21T17:27:24
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-21T17:27:25
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-21T17:27:25
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-21T17:27:25
+================================================================================
+[2023-09-21T17:28:14.630+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:27:55
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:27:55
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:27:55
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-21T17:27:55
+================================================================================
+[2023-09-21T17:28:45.092+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-21T17:28:25
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-21T17:28:26
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:28:26
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.28s           2023-09-21T17:28:25
+================================================================================
+[2023-09-21T17:29:15.479+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:28:56
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:28:56
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:28:56
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-21T17:28:56
+================================================================================
+[2023-09-21T17:29:45.843+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-21T17:29:26
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:29:26
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:29:26
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.18s           2023-09-21T17:29:26
+================================================================================
+[2023-09-21T17:30:16.268+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:29:57
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-21T17:29:57
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:29:57
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-21T17:29:57
+================================================================================
+[2023-09-21T17:30:46.631+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:30:27
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:30:27
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:30:27
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-21T17:30:27
+================================================================================
+[2023-09-21T17:31:17.161+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.23s           2023-09-21T17:30:57
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-21T17:30:58
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.19s           2023-09-21T17:30:58
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.32s           2023-09-21T17:30:57
+================================================================================
+[2023-09-21T17:31:20.171+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-21T17:31:20.172+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-21T17:31:47.595+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:31:28
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:31:28
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.13s           2023-09-21T17:31:28
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-21T17:31:28
+================================================================================
+[2023-09-21T17:32:18.105+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2023-09-21T17:31:58
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.16s           2023-09-21T17:31:59
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-21T17:31:59
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.28s           2023-09-21T17:31:58
+================================================================================
+[2023-09-21T17:32:48.646+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.20s           2023-09-21T17:32:29
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.15s           2023-09-21T17:32:29
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:32:29
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.34s           2023-09-21T17:32:29
+================================================================================
+[2023-09-21T17:33:19.098+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-21T17:32:59
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:32:59
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.15s           2023-09-21T17:33:00
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-21T17:32:59
+================================================================================
+[2023-09-21T17:33:49.523+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:33:30
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:33:30
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:33:30
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-21T17:33:30
+================================================================================
+[2023-09-21T17:34:19.989+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-21T17:34:00
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:34:00
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:34:00
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.32s           2023-09-21T17:34:00
+================================================================================
+[2023-09-21T17:34:50.518+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.20s           2023-09-21T17:34:31
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.15s           2023-09-21T17:34:31
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-21T17:34:31
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-21T17:34:31
+================================================================================
+[2023-09-21T17:35:20.951+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:35:01
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-21T17:35:01
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:35:01
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-21T17:35:01
+================================================================================
+[2023-09-21T17:35:51.506+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.20s           2023-09-21T17:35:32
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.18s           2023-09-21T17:35:32
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.17s           2023-09-21T17:35:32
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.30s           2023-09-21T17:35:32
+================================================================================
+[2023-09-21T17:36:20.919+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-21T17:36:20.920+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-21T17:36:21.930+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:36:02
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-21T17:36:02
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-21T17:36:02
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-21T17:36:02
+================================================================================
+[2023-09-21T17:36:52.365+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-21T17:36:33
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-21T17:36:33
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-21T17:36:33
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-21T17:36:33
+================================================================================
+[2023-09-21T17:37:22.815+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-21T17:37:03
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-21T17:37:03
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-21T17:37:03
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-21T17:37:03
+================================================================================
+[2023-09-22T00:59:07.470+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-09-22T00:59:07.472+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-09-22T00:59:07.472+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-09-22T00:59:07.472+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T00:59:07.479+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T00:59:18.262+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.39s           2023-09-22T00:59:07
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.33s           2023-09-22T00:59:08
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.32s           2023-09-22T00:59:08
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.64s           2023-09-22T00:59:08
+================================================================================
+[2023-09-22T00:59:48.864+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.23s           2023-09-22T00:59:38
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.23s           2023-09-22T00:59:38
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.25s           2023-09-22T00:59:38
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.37s           2023-09-22T00:59:38
+================================================================================
+[2023-09-22T01:00:19.427+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2023-09-22T01:00:09
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.19s           2023-09-22T01:00:09
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.19s           2023-09-22T01:00:09
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.29s           2023-09-22T01:00:09
+================================================================================
+[2023-09-22T01:00:49.987+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2023-09-22T01:00:39
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.19s           2023-09-22T01:00:39
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.19s           2023-09-22T01:00:40
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.31s           2023-09-22T01:00:39
+================================================================================
+[2023-09-22T01:01:20.575+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2023-09-22T01:01:10
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.20s           2023-09-22T01:01:10
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.20s           2023-09-22T01:01:10
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.35s           2023-09-22T01:01:10
+================================================================================
+[2023-09-22T01:01:51.214+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.25s           2023-09-22T01:01:40
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.20s           2023-09-22T01:01:41
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.20s           2023-09-22T01:01:41
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.30s           2023-09-22T01:01:40
+================================================================================
+[2023-09-22T01:02:21.809+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.23s           2023-09-22T01:02:11
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.19s           2023-09-22T01:02:11
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.18s           2023-09-22T01:02:11
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.33s           2023-09-22T01:02:11
+================================================================================
+[2023-09-22T01:02:52.444+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.22s           2023-09-22T01:02:42
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.21s           2023-09-22T01:02:42
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.20s           2023-09-22T01:02:42
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.33s           2023-09-22T01:02:42
+================================================================================
+[2023-09-22T01:03:22.844+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:03:12
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:03:12
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:03:12
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:03:12
+================================================================================
+[2023-09-22T01:03:53.270+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:03:43
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-22T01:03:43
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:03:43
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-22T01:03:43
+================================================================================
+[2023-09-22T01:04:08.347+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:04:08.353+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:04:23.677+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:04:13
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:04:13
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:04:13
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:04:13
+================================================================================
+[2023-09-22T01:04:54.076+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:04:43
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:04:44
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:04:44
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:04:43
+================================================================================
+[2023-09-22T01:05:24.687+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2023-09-22T01:05:14
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.25s           2023-09-22T01:05:14
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.19s           2023-09-22T01:05:14
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.29s           2023-09-22T01:05:14
+================================================================================
+[2023-09-22T01:05:55.085+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:05:44
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:05:45
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:05:45
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:05:44
+================================================================================
+[2023-09-22T01:06:25.515+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:06:15
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:06:15
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:06:15
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:06:15
+================================================================================
+[2023-09-22T01:06:56.002+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:06:45
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-22T01:06:45
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.16s           2023-09-22T01:06:46
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-22T01:06:45
+================================================================================
+[2023-09-22T01:07:26.467+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2023-09-22T01:07:16
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:07:16
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:07:16
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:07:16
+================================================================================
+[2023-09-22T01:07:56.919+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:07:46
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:07:46
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:07:46
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-22T01:07:46
+================================================================================
+[2023-09-22T01:08:27.363+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:08:17
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:08:17
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:08:17
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-22T01:08:17
+================================================================================
+[2023-09-22T01:08:57.849+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2023-09-22T01:08:47
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:08:47
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:08:47
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.28s           2023-09-22T01:08:47
+================================================================================
+[2023-09-22T01:09:08.908+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:09:08.910+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:09:28.250+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:09:18
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:09:18
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:09:18
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:09:18
+================================================================================
+[2023-09-22T01:09:58.637+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:09:48
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:09:48
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:09:48
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:09:48
+================================================================================
+[2023-09-22T01:10:29.065+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-22T01:10:18
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:10:19
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:10:19
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.28s           2023-09-22T01:10:19
+================================================================================
+[2023-09-22T01:10:59.480+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:10:49
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:10:49
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:10:49
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-22T01:10:49
+================================================================================
+[2023-09-22T01:11:29.961+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:11:19
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.18s           2023-09-22T01:11:19
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.16s           2023-09-22T01:11:20
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-22T01:11:19
+================================================================================
+[2023-09-22T01:12:00.333+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:11:50
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:11:50
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:11:50
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:11:50
+================================================================================
+[2023-09-22T01:12:30.787+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:12:20
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-22T01:12:20
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:12:20
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-22T01:12:20
+================================================================================
+[2023-09-22T01:13:01.299+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:12:51
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.20s           2023-09-22T01:12:51
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.13s           2023-09-22T01:12:51
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.28s           2023-09-22T01:12:51
+================================================================================
+[2023-09-22T01:13:31.670+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:13:21
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:13:21
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:13:21
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:13:21
+================================================================================
+[2023-09-22T01:14:02.176+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2023-09-22T01:13:51
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-22T01:13:52
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.13s           2023-09-22T01:13:52
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.31s           2023-09-22T01:13:52
+================================================================================
+[2023-09-22T01:14:09.211+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:14:09.213+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:14:32.565+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:14:22
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:14:22
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:14:22
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:14:22
+================================================================================
+[2023-09-22T01:15:03.140+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.19s           2023-09-22T01:14:52
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.20s           2023-09-22T01:14:53
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.16s           2023-09-22T01:14:53
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.34s           2023-09-22T01:14:53
+================================================================================
+[2023-09-22T01:15:33.575+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:15:23
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:15:23
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:15:23
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-22T01:15:23
+================================================================================
+[2023-09-22T01:16:04.123+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.20s           2023-09-22T01:15:53
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-22T01:15:54
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.18s           2023-09-22T01:15:54
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.33s           2023-09-22T01:15:54
+================================================================================
+[2023-09-22T01:16:34.577+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.17s           2023-09-22T01:16:24
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:16:24
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:16:24
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:16:24
+================================================================================
+[2023-09-22T01:17:05.120+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2023-09-22T01:16:54
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-22T01:16:55
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.18s           2023-09-22T01:16:55
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.34s           2023-09-22T01:16:55
+================================================================================
+[2023-09-22T01:17:35.544+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:17:25
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-22T01:17:25
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-22T01:17:25
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:17:25
+================================================================================
+[2023-09-22T01:18:05.917+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:17:55
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:17:55
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.13s           2023-09-22T01:17:55
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-22T01:17:55
+================================================================================
+[2023-09-22T01:18:36.406+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2023-09-22T01:18:26
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:18:26
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:18:26
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.29s           2023-09-22T01:18:26
+================================================================================
+[2023-09-22T01:19:06.820+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:18:56
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:18:56
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.15s           2023-09-22T01:18:56
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:18:56
+================================================================================
+[2023-09-22T01:19:09.835+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:19:09.840+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:19:37.251+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:19:27
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:19:27
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:19:27
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:19:27
+================================================================================
+[2023-09-22T01:20:07.714+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.17s           2023-09-22T01:19:57
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:19:57
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:19:57
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-22T01:19:57
+================================================================================
+[2023-09-22T01:20:38.139+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:20:27
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:20:28
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.13s           2023-09-22T01:20:28
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:20:28
+================================================================================
+[2023-09-22T01:21:08.565+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:20:58
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.14s           2023-09-22T01:20:58
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.13s           2023-09-22T01:20:58
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:20:58
+================================================================================
+[2023-09-22T01:21:38.980+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:21:28
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:21:28
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:21:29
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:21:28
+================================================================================
+[2023-09-22T01:22:09.392+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:21:59
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:21:59
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:21:59
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-22T01:21:59
+================================================================================
+[2023-09-22T01:22:39.817+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-22T01:22:29
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:22:29
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:22:29
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:22:29
+================================================================================
+[2023-09-22T01:23:10.175+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:23:00
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:23:00
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:23:00
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:23:00
+================================================================================
+[2023-09-22T01:23:40.605+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:23:30
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:23:30
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:23:30
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-22T01:23:30
+================================================================================
+[2023-09-22T01:24:10.002+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:24:10.004+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:24:11.015+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:24:00
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-22T01:24:00
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:24:01
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.23s           2023-09-22T01:24:00
+================================================================================
+[2023-09-22T01:24:41.394+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:24:31
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:24:31
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:24:31
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:24:31
+================================================================================
+[2023-09-22T01:25:11.865+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:25:01
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.19s           2023-09-22T01:25:01
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:25:01
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-22T01:25:01
+================================================================================
+[2023-09-22T01:25:42.307+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:25:32
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.16s           2023-09-22T01:25:32
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.15s           2023-09-22T01:25:32
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:25:32
+================================================================================
+[2023-09-22T01:26:12.672+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.11s           2023-09-22T01:26:02
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:26:02
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:26:02
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:26:02
+================================================================================
+[2023-09-22T01:26:43.079+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:26:32
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:26:33
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:26:33
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-22T01:26:32
+================================================================================
+[2023-09-22T01:27:13.450+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:27:03
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:27:03
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:27:03
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-22T01:27:03
+================================================================================
+[2023-09-22T01:27:43.827+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:27:33
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:27:33
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:27:33
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:27:33
+================================================================================
+[2023-09-22T01:28:14.203+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:28:04
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:28:04
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:28:04
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.19s           2023-09-22T01:28:04
+================================================================================
+[2023-09-22T01:28:44.618+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:28:34
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:28:34
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:28:34
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-22T01:28:34
+================================================================================
+[2023-09-22T01:29:10.048+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:29:10.055+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:29:15.008+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:29:04
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:29:04
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:29:05
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.20s           2023-09-22T01:29:04
+================================================================================
+[2023-09-22T01:29:45.433+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:29:35
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:29:35
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:29:35
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.26s           2023-09-22T01:29:35
+================================================================================
+[2023-09-22T01:30:15.821+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:30:05
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:30:05
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.12s           2023-09-22T01:30:05
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:30:05
+================================================================================
+[2023-09-22T01:30:46.296+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-22T01:30:36
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.20s           2023-09-22T01:30:36
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.16s           2023-09-22T01:30:36
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-22T01:30:36
+================================================================================
+[2023-09-22T01:31:16.696+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:31:06
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.10s           2023-09-22T01:31:06
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:31:06
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:31:06
+================================================================================
+[2023-09-22T01:31:47.127+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.17s           2023-09-22T01:31:36
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:31:37
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:31:37
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-22T01:31:37
+================================================================================
+[2023-09-22T01:32:17.555+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2023-09-22T01:32:07
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:32:07
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:32:07
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:32:07
+================================================================================
+[2023-09-22T01:32:47.971+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:32:37
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:32:37
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:32:37
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.22s           2023-09-22T01:32:37
+================================================================================
+[2023-09-22T01:33:18.392+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2023-09-22T01:33:08
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-22T01:33:08
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-22T01:33:08
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-22T01:33:08
+================================================================================
+[2023-09-22T01:33:48.811+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2023-09-22T01:33:38
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:33:38
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:33:38
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.21s           2023-09-22T01:33:38
+================================================================================
+[2023-09-22T01:34:10.154+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2023-09-22T01:34:10.156+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2023-09-22T01:34:19.213+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:34:09
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:34:09
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:34:09
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:34:09
+================================================================================
+[2023-09-22T01:34:49.647+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:34:39
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-22T01:34:39
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.14s           2023-09-22T01:34:39
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-22T01:34:39
+================================================================================
+[2023-09-22T01:35:20.092+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2023-09-22T01:35:09
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.11s           2023-09-22T01:35:10
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:35:10
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.27s           2023-09-22T01:35:10
+================================================================================
+[2023-09-22T01:35:50.589+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.19s           2023-09-22T01:35:40
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.17s           2023-09-22T01:35:40
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.16s           2023-09-22T01:35:40
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.30s           2023-09-22T01:35:40
+================================================================================
+[2023-09-22T01:36:21.122+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.22s           2023-09-22T01:36:10
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.19s           2023-09-22T01:36:11
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.17s           2023-09-22T01:36:11
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.36s           2023-09-22T01:36:11
+================================================================================
+[2023-09-22T01:36:51.641+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2023-09-22T01:36:41
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.19s           2023-09-22T01:36:41
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.18s           2023-09-22T01:36:41
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.35s           2023-09-22T01:36:41
+================================================================================
+[2023-09-22T01:37:22.061+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.16s           2023-09-22T01:37:11
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.12s           2023-09-22T01:37:12
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.10s           2023-09-22T01:37:12
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.25s           2023-09-22T01:37:11
+================================================================================
+[2023-09-22T01:37:52.457+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2023-09-22T01:37:42
+/opt/airflow/dags/dag_with_python_operator.py                             1           0  0.13s           2023-09-22T01:37:42
+/opt/airflow/dags/spark_job_minio.py                                      1           0  0.11s           2023-09-22T01:37:42
+/opt/airflow/dags/dag_with_minio.py                                       1           0  0.24s           2023-09-22T01:37:42
+================================================================================
